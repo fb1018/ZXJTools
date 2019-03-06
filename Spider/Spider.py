@@ -495,9 +495,11 @@ def main():
         {"param": "date_str", "type": type(""), "help": "Date [2019-03-05]"},
     ]
     args = basic_apply("Spider for biding sites", params)
-    bsd = BidingSpiderDynamic(config_file=args.sites, keywords_file=args.keywords)#, fix_date=args.date_str)
-    bsd.run(output=args.output)
-    del bsd
+    while True:
+        bsd = BidingSpiderDynamic(config_file=args.sites, keywords_file=args.keywords)#, fix_date=args.date_str)
+        bsd.run(output=args.output)
+        del bsd
+        time.sleep(24 * 3600)
 
 
 if __name__ == '__main__':
