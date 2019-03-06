@@ -1,0 +1,32 @@
+[
+  {
+    "name": "中国移动采购与招标网",
+    "id": "b2b.10086.cn",
+    "url": "https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=2"
+  },
+  {
+    "name": "中国电信阳光采购网_集团",
+    "id": "caigou.chinatelecom.com.cn.jt",
+    "url": "https://caigou.chinatelecom.com.cn/MSS-PORTAL/announcementjoin/list.do?provinceJT=JT"
+  },
+  {
+    "name": "中国电信阳光采购网_非集团",
+    "id": "caigou.chinatelecom.com.cn.njt",
+    "url": "https://caigou.chinatelecom.com.cn/MSS-PORTAL/announcementjoin/list.do?provinceJT=NJT"
+  },
+  {
+    "name": "招标与采购网",
+    "id": "www.zbytb.com",
+    "url": "https://www.zbytb.com/zb/search.php"
+  },
+  {
+    "name": "采购与招标网",
+    "id": "www.chinabidding.cn",
+    "url": "https://www.chinabidding.cn/search/Searchgj/zbcg"
+  },
+  {
+    "name": "采招网",
+    "id": "www.bidcenter.com.cn",
+    "url": "https://search.bidcenter.com.cn/search"
+  }
+]
